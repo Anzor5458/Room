@@ -1,0 +1,66 @@
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Hello this is a nightmare mod',,true,2)
+wait(1)
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Next time I will add harcore on March 9',true,1)
+-- Custom Door Sounds
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Anzor5458/Seeknew/main/Ceiling.txt"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/iAhTGdBh"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+ 
+game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+
+-- greed
+coroutine.wrap(function()
+    while true do
+        wait(math.random(5,3500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/yDa64QNi"))()
+    end
+end)()
+
+-- Glare
+coroutine.wrap(function()
+    while true do
+        wait(math.random(5,3500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/NzTPnWMy"))()
+    end
+end)()
+
+-- Block
+coroutine.wrap(function()
+    while true do
+        wait(math.random(5,3500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/t94BBAXR"))()
+    end
+end)()
+
+-- Abyss
+coroutine.wrap(function()
+    while true do
+        wait(math.random(5,3500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Tuf6eS1F"))()
+    end
+end)()
+
+-- Whirl
+coroutine.wrap(function()
+    while true do
+        wait(math.random(5,3500))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/WqvAd0zY"))()
+    end
+end)()
+
+-- Crucifix
+coroutine.wrap(function()
+    while true do
+        wait(math.random(160,860))
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        if workspace:FindFirstChild("SeekMoving") == nil and game:GetService("ReplicatedStorage").GameData.LatestRoom.Value ~= 50 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Crucifix.lua'))()
+        end
+    end
+end)()
